@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Google Maps - gmplot</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&key=AIzaSyCFE8e8PiPP_3u2-mT-WtZUb6WlPAdShKc"></script>
+<script type="text/javascript">
+    function initialize() {
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 15,
+            center: new google.maps.LatLng(28.530914, 77.211756)
+        });
+
+        new google.maps.Circle({
+            strokeColor: '#0000A0',
+            strokeOpacity: 1.0,
+            strokeWeight: 1,
+            fillColor: '#0000A0',
+            fillOpacity: 0.3,
+            map: map,
+            center: new google.maps.LatLng(28.530461, 77.222742),
+            radius: 90
+        });
+
+        new google.maps.Circle({
+            strokeColor: '#0000A0',
+            strokeOpacity: 1.0,
+            strokeWeight: 1,
+            fillColor: '#0000A0',
+            fillOpacity: 0.3,
+            map: map,
+            center: new google.maps.LatLng(28.53016, 77.202315),
+            radius: 90
+        });
+
+        new google.maps.Circle({
+            strokeColor: '#0000A0',
+            strokeOpacity: 1.0,
+            strokeWeight: 1,
+            fillColor: '#0000A0',
+            fillOpacity: 0.3,
+            map: map,
+            center: new google.maps.LatLng(28.544034, 77.206435),
+            radius: 90
+        });
+
+        new google.maps.Circle({
+            strokeColor: '#0000A0',
+            strokeOpacity: 1.0,
+            strokeWeight: 1,
+            fillColor: '#0000A0',
+            fillOpacity: 0.3,
+            map: map,
+            center: new google.maps.LatLng(28.52416, 77.192372),
+            radius: 90
+        });
+
+        new google.maps.Circle({
+            strokeColor: '#0000A0',
+            strokeOpacity: 1.0,
+            strokeWeight: 1,
+            fillColor: '#0000A0',
+            fillOpacity: 0.3,
+            map: map,
+            center: new google.maps.LatLng(28.520541, 77.202157),
+            radius: 90
+        });
+
+    }
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+    <div id="map_canvas" style="width: 100%; height: 100%;" />
+</body>
+</html>

@@ -1,0 +1,4 @@
+TrackName,Route,Distance,Rider,Vehicle,Fuel,Price,Assigned Date and Time
+Track1,"('Muneeb Pharmacy', 'Burhan Pharmacy', 'A1 Pharmacy')",11.826962138830162,RID101,Motor Bike,0.2628213808628925,59.08224641797823,19/12/2022 14:28:08
+Track2,"('Muneeb Pharmacy', 'Pharmacy One +')",0.008186606153928164,RID104,Van,0.0007442369230843786,0,21/12/2022 22:28:21
+Track3,"('A1 Pharmacy', 'Clinix Pharmacy')",7.521891058695258,RID106,Car,0.3008756423478103,0,21/12/2022 22:34:40
